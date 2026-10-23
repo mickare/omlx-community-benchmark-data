@@ -28,7 +28,7 @@ print(df_perf.head(3))
 ## Data Quality
 
 ### Performance Data
-* 536,164 rows
+* 539,146 rows
 * 23 columns
 * Note: There are not many data points between the weeks 2026-08-31 and 2026-09-14. I double checked, check yourself [here](https://omlx.ai/benchmarks/performance?cursor=WyJwZXJmb3JtYW5jZTpoaWRlX3NwZWNwcmVmaWxsPTEiLCIyMDI2LTA5LTE1IDA1OjE1OjQwIiw0NjQxMDksMiw3MDAwLDY5OTkwXQ%3D%3D&hide_specprefill=1).
 
@@ -36,59 +36,59 @@ print(df_perf.head(3))
 
 |  # | Column | Non-Null Count | Dtype  |
 | -: | ----------------- | --------------: | :----- |
-| 0 | rank | 536164 non-null | str |
-| 1 | chip | 536164 non-null | str |
-| 2 | ram | 536164 non-null | str |
-| 3 | model | 536164 non-null | str |
-| 4 | quant | 536164 non-null | str |
-| 5 | ctx | 536164 non-null | str |
-| 6 | pp_tok_s | 536164 non-null | str |
-| 7 | tg_tok_s | 536164 non-null | str |
-| 8 | note | 536164 non-null | str |
-| 9 | date | 536164 non-null | str |
-| 10 | measurement_url | 536164 non-null | str |
-| 11 | data_tip | 536164 non-null | str |
+| 0 | rank | 539146 non-null | str |
+| 1 | chip | 539146 non-null | str |
+| 2 | ram | 539146 non-null | str |
+| 3 | model | 539146 non-null | str |
+| 4 | quant | 539146 non-null | str |
+| 5 | ctx | 539146 non-null | str |
+| 6 | pp_tok_s | 539146 non-null | str |
+| 7 | tg_tok_s | 539146 non-null | str |
+| 8 | note | 539146 non-null | str |
+| 9 | date | 539146 non-null | str |
+| 10 | measurement_url | 539146 non-null | str |
+| 11 | data_tip | 539146 non-null | str |
 | 12 | rank_data_tip | 0 non-null | object |
 | 13 | chip_data_tip | 0 non-null | object |
 | 14 | ram_data_tip | 0 non-null | object |
-| 15 | model_data_tip | 100317 non-null | str |
+| 15 | model_data_tip | 101270 non-null | str |
 | 16 | quant_data_tip | 0 non-null | object |
 | 17 | ctx_data_tip | 0 non-null | object |
 | 18 | pp_tok_s_data_tip | 0 non-null | object |
 | 19 | tg_tok_s_data_tip | 0 non-null | object |
-| 20 | note_data_tip | 107295 non-null | str |
-| 21 | date_data_tip | 536164 non-null | str |
-| 22 | fetched_at | 536164 non-null | str |
+| 20 | note_data_tip | 109487 non-null | str |
+| 21 | date_data_tip | 539146 non-null | str |
+| 22 | fetched_at | 539146 non-null | str |
 
 ### Intelligence Data
-* 23,244 rows
+* 23,888 rows
 * 21 columns
 
 ![Weekly distribution of intelligence data](docs/distribution_intelligence.png)
 
 |  # | Column | Non-Null Count | Dtype  |
 | -: | ----------------- | --------------: | :----- |
-| 0 | rank | 23244 non-null | str |
-| 1 | repo | 23244 non-null | str |
-| 2 | model | 23244 non-null | str |
-| 3 | quant | 23244 non-null | str |
-| 4 | benchmark | 23244 non-null | str |
-| 5 | score | 23244 non-null | str |
-| 6 | sample | 23244 non-null | str |
-| 7 | note | 23244 non-null | str |
-| 8 | date | 23244 non-null | str |
-| 9 | measurement_url | 23244 non-null | str |
-| 10 | data_tip | 23244 non-null | str |
+| 0 | rank | 23888 non-null | str |
+| 1 | repo | 23888 non-null | str |
+| 2 | model | 23888 non-null | str |
+| 3 | quant | 23888 non-null | str |
+| 4 | benchmark | 23888 non-null | str |
+| 5 | score | 23888 non-null | str |
+| 6 | sample | 23888 non-null | str |
+| 7 | note | 23888 non-null | str |
+| 8 | date | 23888 non-null | str |
+| 9 | measurement_url | 23888 non-null | str |
+| 10 | data_tip | 23888 non-null | str |
 | 11 | rank_data_tip | 0 non-null | object |
-| 12 | repo_data_tip | 17484 non-null | str |
-| 13 | model_data_tip | 7126 non-null | str |
+| 12 | repo_data_tip | 18033 non-null | str |
+| 13 | model_data_tip | 7447 non-null | str |
 | 14 | quant_data_tip | 0 non-null | object |
 | 15 | benchmark_data_tip | 0 non-null | object |
 | 16 | score_data_tip | 0 non-null | object |
-| 17 | sample_data_tip | 23244 non-null | str |
-| 18 | note_data_tip | 14343 non-null | str |
-| 19 | date_data_tip | 23244 non-null | str |
-| 20 | fetched_at | 23244 non-null | str |
+| 17 | sample_data_tip | 23888 non-null | str |
+| 18 | note_data_tip | 14796 non-null | str |
+| 19 | date_data_tip | 23888 non-null | str |
+| 20 | fetched_at | 23888 non-null | str |
 
 ## License
 
